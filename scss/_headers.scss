@@ -1,0 +1,60 @@
+.header__logo{
+    height: 11rem;
+    width: 10rem;
+    border-radius: 20rem;
+    margin: 1rem 2rem 1rem 1rem;
+    display: inline-block;
+}
+.header__titulo{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    color: #f0dbca;
+    padding: 1rem 10rem 1rem 0.5rem ;
+    border-radius: 1rem;
+    background-image: linear-gradient(#804645, #58302f );
+    
+    
+}
+.header__titulo:hover{
+        transform: scale(1.1);
+    }
+.header__navigation{
+    text-align: left;
+    list-style: none;
+    background-image: url(../imagenes/wood_pattern.png);
+    border: solid #58302f 0.3rem;
+    padding: 1rem 0rem 1rem 0rem;
+
+    li{
+        display: inline-block;
+        position: relative;
+        font-size: 1.5rem;
+        padding: 0 10px;
+    
+        
+    }
+    ul{
+        position: absolute;
+        display: none;
+        li{
+            display: block;
+            background-color: #f0dbca;
+            border: solid #58302f 0.3rem;
+            width: 600px;
+        }
+    }
+    a{
+        color: #804645;
+        text-decoration: none;
+        font-style: cursive;
+        
+    }
+}
+.header__navigation a:hover{
+            color: #58302f;
+        }
+.header__navigation li:hover ul{
+            display: block;
+        }

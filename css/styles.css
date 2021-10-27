@@ -1,0 +1,41 @@
+
+.sectionFlex{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+.containerHome {
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr 0.2fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.1fr ;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header header header"
+    "textoSuperior textoSuperior publicidad"
+    "videoPrincipal videoPrincipal publicidad"
+    "sectionProductos sectionProductos publicidad"
+    "textoFooter textoFooter textoFooter";
+}
+
+.header { grid-area: header; }
+
+.textoSuperior { grid-area: textoSuperior;}
+
+.videoPrincipal { grid-area: videoPrincipal; }
+
+.sectionProductos { grid-area: sectionProductos; }
+
+.publicidad {
+    justify-self: end; 
+    align-self: start; 
+    grid-area: publicidad; 
+}
+.textoFooter{ grid-area: textoFooter;}
+
+
+
+
+

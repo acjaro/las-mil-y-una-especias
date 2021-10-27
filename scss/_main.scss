@@ -1,0 +1,59 @@
+@import "variables";
+.main__texto{
+    line-height: 15px;
+    font-size: 1,5rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.3rem solid $borde-oscuro;
+    background-color: $base-clara;
+}
+
+.main__titulo{
+    color: $borde-oscuro;
+    background-color: $base-clara;
+    border:0.3rem solid $borde-oscuro ;
+    margin: 2rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 2rem;
+    }
+
+.main__producto{
+    border: 0.3rem solid $borde-oscuro;
+    background-color: $base-clara;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+}
+.main__producto__margin{
+    @extend.main__producto;
+    margin: 0rem 1rem 0rem 2rem;
+}
+.main__imagen{
+    height: 13rem;
+    width: 13rem;
+}
+.main__video{
+    display: inline-block;
+    border: 0.3rem solid $borde-oscuro;
+    background-color: $base-clara;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.main__form{
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 5rem 16rem 5rem 1rem;
+    border: 0.3rem solid $borde-oscuro;
+    background-color: $base-clara; 
+    display: inline-block;
+    flex-direction: row;
+    
+}
+.main__carousel{
+    height: 20rem;
+    width: 60rem;
+}

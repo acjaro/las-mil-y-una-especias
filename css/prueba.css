@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* general */
+html {
+  font-size: 62, 5%;
+  /* 1rem pase a valer a 10px. Por defecto el navegador aplica 16px */ }
+
+body {
+  color: #804645;
+  background-color: #d8bca3;
+  font-family: 'Koh Santepheap', cursive;
+  font-weight: 500; }
+
+.header__logo {
+  height: 11rem;
+  width: 10rem;
+  border-radius: 20rem;
+  margin: 1rem 2rem 1rem 1rem;
+  display: inline-block; }
+
+.header__titulo {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  display: inline-block;
+  color: #f0dbca;
+  padding: 1rem 10rem 1rem 0.5rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(#804645, #58302f); }
+
+.header__titulo:hover {
+  transform: scale(1.1); }
+
+.header__navigation {
+  text-align: left;
+  list-style: none;
+  background-image: url(../imagenes/wood_pattern.png);
+  border: solid #58302f 0.3rem;
+  padding: 1rem 0rem 1rem 0rem; }
+  .header__navigation li {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 10px; }
+  .header__navigation ul {
+    position: absolute;
+    display: none; }
+    .header__navigation ul li {
+      display: block;
+      background-color: #f0dbca;
+      border: solid #58302f 0.3rem;
+      width: 600px; }
+  .header__navigation a {
+    color: #804645;
+    text-decoration: none;
+    font-style: cursive; }
+
+.header__navigation a:hover {
+  color: #58302f; }
+
+.header__navigation li:hover ul {
+  display: block; }
+
+.main__texto {
+  line-height: 15px;
+  font-size: 1,5rem;
+  text-align: left;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 0.3rem solid #58302f;
+  background-color: #f0dbca; }
+
+.main__titulo {
+  color: #58302f;
+  background-color: #f0dbca;
+  border: 0.3rem solid #58302f;
+  margin: 2rem;
+  padding: 0.3rem;
+  text-align: center;
+  border-radius: 2rem; }
+
+.main__producto, .main__producto__margin {
+  border: 0.3rem solid #58302f;
+  background-color: #f0dbca;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem; }
+
+.main__producto__margin {
+  margin: 0rem 1rem 0rem 2rem; }
+
+.main__imagen {
+  height: 13rem;
+  width: 13rem; }
+
+.main__video {
+  display: inline-block;
+  border: 0.3rem solid #58302f;
+  background-color: #f0dbca;
+  padding: 1rem;
+  margin: 1rem; }
+
+.main__form {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 5rem 16rem 5rem 1rem;
+  border: 0.3rem solid #58302f;
+  background-color: #f0dbca;
+  display: inline-block;
+  flex-direction: row; }
+
+.main__carousel {
+  height: 20rem;
+  width: 60rem; }
+
+.btn__main__producto {
+  font-family: Koh Santepheap;
+  font-weight: 500;
+  color: #58302f;
+  border: 0.2rem solid #58302f; }
+
+.btn__main__form {
+  font-family: cursive;
+  font-weight: 500;
+  color: #58302f;
+  border: 0.2rem solid #58302f; }
+
+.footer__general {
+  letter-spacing: 1px;
+  line-height: 15px;
+  font-size: 12px;
+  color: black;
+  background-image: url(../imagenes/wood_pattern.png);
+  border: 0.3rem solid #58302f;
+  padding: 1rem;
+  margin-bottom: 0rem; }
+
+.aside__puublicidad {
+  display: inline-block;
+  flex-direction: row; }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 0.5fr); }
+  .aside__puublicidad {
+    display: none; } }
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: chocolate; }
+  .aside__puublicidad {
+    display: none; }
+  .main__video {
+    height: 18rem;
+    width: 19rem; } }

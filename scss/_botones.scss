@@ -1,0 +1,13 @@
+@import "variables";
+$botones:(
+    main__producto: Koh Santepheap,
+    main__form: cursive
+);
+@each $nombre, $fuente in $botones {
+    .btn__#{$nombre} {
+        font-family: $fuente;
+        font-weight: 500;
+        color: $borde-oscuro;
+        border: 0.2rem solid $borde-oscuro
+    }
+}

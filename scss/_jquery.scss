@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 0.5fr);
+        }
+    .aside__puublicidad{
+            display: none;
+        }
+}
+
+
+@media only screen and (max-width: 320px) {
+body {
+    background-color: chocolate;
+    }
+.aside__puublicidad{
+        display: none;
+    }
+.main__video{
+        height: 18rem;
+        width: 19rem;
+        
+        
+        
+    }
+}
