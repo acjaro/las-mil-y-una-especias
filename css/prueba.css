@@ -64,16 +64,17 @@ body {
 .header__navigation li:hover ul {
   display: block; }
 
-.main__texto {
+.main__texto__general {
   line-height: 15px;
   font-size: 1,5rem;
   text-align: left;
   padding: 0.5rem;
   margin: 0.5rem;
   border: 0.3rem solid #58302f;
-  background-color: #f0dbca; }
+  background-color: #f0dbca;
+  display: inline-block; }
 
-.main__titulo {
+.main__producto__titulo {
   color: #58302f;
   background-color: #f0dbca;
   border: 0.3rem solid #58302f;
@@ -92,11 +93,11 @@ body {
 .main__producto__margin {
   margin: 0rem 1rem 0rem 2rem; }
 
-.main__imagen {
+.main__producto__imagen {
   height: 13rem;
   width: 13rem; }
 
-.main__video {
+.main__producto__video {
   display: inline-block;
   border: 0.3rem solid #58302f;
   background-color: #f0dbca;
@@ -113,9 +114,18 @@ body {
   display: inline-block;
   flex-direction: row; }
 
-.main__carousel {
+.main__form__titulo {
+  font-size: 2rem;
+  border-bottom: 0.1rem solid #58302f; }
+
+.main__producto__carousel {
   height: 20rem;
   width: 60rem; }
+
+.main__mapa {
+  background-color: #f0dbca;
+  border: 0.3rem solid #58302f;
+  margin: 2rem; }
 
 .btn__main__producto {
   font-family: Koh Santepheap;
@@ -154,6 +164,6 @@ body {
     background-color: chocolate; }
   .aside__puublicidad {
     display: none; }
-  .main__video {
+  .main__producto__video {
     height: 18rem;
     width: 19rem; } }

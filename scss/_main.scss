@@ -1,5 +1,5 @@
 @import "variables";
-.main__texto{
+.main__texto__general{
     line-height: 15px;
     font-size: 1,5rem;
     text-align: left;
@@ -7,9 +7,10 @@
     margin: 0.5rem;
     border: 0.3rem solid $borde-oscuro;
     background-color: $base-clara;
+    display: inline-block;
 }
 
-.main__titulo{
+.main__producto__titulo{
     color: $borde-oscuro;
     background-color: $base-clara;
     border:0.3rem solid $borde-oscuro ;
@@ -30,11 +31,11 @@
     @extend.main__producto;
     margin: 0rem 1rem 0rem 2rem;
 }
-.main__imagen{
+.main__producto__imagen{
     height: 13rem;
     width: 13rem;
 }
-.main__video{
+.main__producto__video{
     display: inline-block;
     border: 0.3rem solid $borde-oscuro;
     background-color: $base-clara;
@@ -53,7 +54,17 @@
     flex-direction: row;
     
 }
-.main__carousel{
+.main__form__titulo{
+    font-size: 2rem;
+    border-bottom:0.1rem solid $borde-oscuro ;
+}
+.main__producto__carousel{
     height: 20rem;
     width: 60rem;
+}
+.main__mapa{
+    background-color: $base-clara;
+    border:0.3rem solid $borde-oscuro ;
+    margin: 2rem;
+
 }
