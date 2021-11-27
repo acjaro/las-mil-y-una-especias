@@ -5,13 +5,20 @@
     .aside__puublicidad{
             display: none;
         }
+    .main__form{
+        margin: 2rem;
+    }
+    .main__producto__titulo{
+        margin: 0rem;
+    }
+    .main__producto__oculto2{
+        display: none;
+    }
 }
 
 
 @media only screen and (max-width: 320px) {
-body {
-    background-color: chocolate;
-    }
+
 .aside__puublicidad{
         display: none;
     }
@@ -19,8 +26,19 @@ body {
     {
         height: 18rem;
         width: 19rem;
-        
-        
-        
+        margin: 1rem 0rem 1rem 0rem;
     }
+.main__mapa__chico{
+    visibility: visible;
+}
+.main__mapa{
+    display: none;
+}
+.main__producto{
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.main__producto__oculto1{
+    display: none;
+}
 }

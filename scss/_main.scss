@@ -4,10 +4,13 @@
     font-size: 1,5rem;
     text-align: left;
     padding: 0.5rem;
-    margin: 0.5rem;
+    // margin: 0.5rem 1rem 0.5rem 5rem;
+    margin: 0,5rem;
     border: 0.3rem solid $borde-oscuro;
+
     background-color: $base-clara;
     display: inline-block;
+    
 }
 
 .main__producto__titulo{
@@ -47,7 +50,7 @@
     text-align: center;
     font-size: 1rem;
     padding: 1rem;
-    margin: 5rem 16rem 5rem 1rem;
+    margin: 5rem 16rem 5rem 20rem;
     border: 0.3rem solid $borde-oscuro;
     background-color: $base-clara; 
     display: inline-block;
@@ -62,9 +65,10 @@
     height: 20rem;
     width: 60rem;
 }
-.main__mapa{
-    background-color: $base-clara;
-    border:0.3rem solid $borde-oscuro ;
-    margin: 2rem;
+.main__mapa__chico{
+    visibility: hidden;
 
+}
+.main__relleno__mercado{
+    height: 10rem;
 }

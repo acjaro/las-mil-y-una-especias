@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="container-fluid">
 <div class="row">
     <header class="col-md-12 col-sm-12 col-xs-12 header" >
         <img src="../imagenes/logo.png" alt="logo" class="header__logo">
@@ -46,7 +46,8 @@
         <article>
             <p class="main__texto__general">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, reiciendis, expedita excepturi repellendus recusandae sunt aliquam molestias vitae ipsam consectetur deserunt neque tempora? Rerum ad, minus eveniet veniam quisquam aliquam minima voluptatem temporibus quia voluptatibus debitis at eos fuga nostrum, consequuntur reprehenderit eaque! Dolorum vel, alias praesentium nisi doloremque error neque dicta sint esse fugit..</p>
         </article>
-        <article class="main__form">
+        <div class="row">
+        <article class="main__form col-md-8 col-sm-11 col-xs-12">
             <p class="main__form__titulo">por favor ingrese sus datos antes de consultar</p>
             <label for="nombre">nombre</label>
             <input type="text" name="nombre" placeholder="su nombre">
@@ -75,19 +76,33 @@
                 </select>
             </form>
             <p class="main__form__titulo">escriba su duda o consulta</p>
-            <textarea rows="15" cols="90"></textarea>
+            <textarea rows="15" cols="50"></textarea>
             <br>
             
             <input type="submit" value="enviar formulario" class="btn__main__form">
             <input type="reset" value="reiniciar formulario" class="btn__main__form">
         </article>
-        <article class="publicidad">
-            <aside class="aside__puublicidad"><img src="../imagenes/publicidad imagen coca.jfif" alt="publicidad" class="publicidadImagen"></video></aside>
-        </article>
+        </div>
+        
     </section>
     
     <div class="row">
-        <footer class="col-md-12 col-sm-12 col-xs-12 footer__general">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sunt eligendi magni magnam itaque cupiditate praesentium dolorum dolores ab numquam facilis hic voluptatibus inventore vero adipisci, maxime placeat modi ad fugiat neque error id delectus expedita eveniet! Nam cupiditate autem porro eligendi, tempora doloremque quasi corrupti amet explicabo, aperiam cumque blanditiis consectetur. Delectus quibusdam accusamus in sunt laudantium repellendus perferendis!
+        <footer class=" col-md-12 col-sm-12 col-xs-12 footer__general text-black">
+            <div class="container-fluid">
+                <nav class="row ">
+                    <a href="#" class="col-md-3 col-sm-3 col-xs-6 text-reset"> las mil y una especias</a>
+                    <ul class="col-md-3 col-sm-3 col-xs-6 list-unstyled"> 
+                        <li class="footer__li__titulo">nuestras redes sociales </li>
+                        <li> facebook</li>
+                        <li>twiter</li>
+                        <li>instagram</li>
+                    </ul>
+                    <ul class="col-md-6 col-sm-6 col-xs-12 list-unstyled">
+                        <li class="footer__li__titulo">sobre nosotros</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, beatae? Excepturi repudiandae doloremque mollitia inventore in temporibus maxime velit quod odio aperiam cum deserunt molestiae id exercitationem, accusamus, eveniet itaque!</li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
     </div>
 <!-- booststrap -->
